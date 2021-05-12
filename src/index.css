@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+#root {
+  background-image: url(./images/background-img.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+footer {
+  text-align: right;
+  position: absolute;
+  width: 98%;
+  bottom: 0;
+}
+
+footer a {
+  background-color: tomato;
+  color: whitesmoke;
+}

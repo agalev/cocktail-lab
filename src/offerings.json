@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Mojito",
+    "ingredients": "1 1/2 oz White rum, 1 oz Fresh lime juice, 2 teaspoons Sugar, 6 leaves of Mint, Soda Water",
+    "weight": "16 oz",
+    "image": "/assets/mojito.jpg",
+    "description": "Mojito is a traditional Cuban highball. The cocktail often consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. Its combination of sweetness, citrus, and herbaceous mint flavours is intended to complement the rum, and has made the mojito a popular summer drink.",
+    "price": 5
+  },
+  {
+    "id": 2,
+    "name": "Old Fashioned",
+    "ingredients": "1 1/2 oz Bourbon or Rye whiskey, 1 Sugar cube, 2 dashes Angostura bitters, Few dashes plain water",
+    "weight": "16 oz",
+    "image": "/assets/oldfashioned.jpg",
+    "description": "The old fashioned is a cocktail made by muddling sugar with bitters and water, adding whiskey or, less commonly, brandy, and garnishing with orange slice or zest and a cocktail cherry. It is traditionally served in an old fashioned glass, which predated the cocktail.",
+    "price": 4
+  },
+  {
+    "id": 3,
+    "name": "Margarita",
+    "ingredients": " oz Cointreau, 1 oz Lime juice, 2 oz Tequila",
+    "weight": "16 oz",
+    "image": "/assets/margarita.jpg",
+    "description": "A margarita is a cocktail consisting of tequila, orange liqueur, and lime juice often served with salt on the rim of the glass. The drink is served shaken with ice, blended with ice, or without ice.",
+    "price": 5
+  },
+  {
+    "id": 4,
+    "name": "Martini",
+    "ingredients": "1/2 oz (1 part) Dry vermouth, 3 oz (6 parts) Gin",
+    "weight": "16 oz",
+    "image": "/assets/martini.jpg",
+    "description": "The martini is a cocktail made with gin and vermouth, and garnished with an olive or a lemon twist. Over the years, the martini has become one of the best-known mixed alcoholic beverages. H. L. Mencken called the martini 'the only American invention as perfect as the sonnet'",
+    "price": 4
+  }
+]
