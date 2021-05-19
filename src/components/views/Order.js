@@ -38,7 +38,7 @@ const useStyles = makeStyles({
   switchBase: {
     '&$checked': {
       color: '#91071B',
-      transform: 'translateX(4vh)',
+      transform: 'translateX(3.5vh)',
     },
     '& + $track': {
       backgroundColor: '#d7ebdd',
@@ -46,8 +46,8 @@ const useStyles = makeStyles({
   },
   checked: {},
   thumb: {
-    width: '4vh',
-    height: '4vh',
+    width: '3.5vh',
+    height: '3.5vh',
     transform: 'translateX(0px)',
   },
 })
@@ -72,19 +72,6 @@ export default function Order() {
 
   return (
     <>
-      <Grid container justify='center'>
-        Pickup
-        <Switch
-          classes={{
-            root: classes.root,
-            switchBase: classes.switchBase,
-            checked: classes.checked,
-            track: classes.track,
-            thumb: classes.thumb,
-          }}
-        />
-        Delivery
-      </Grid>
       <Formik
         initialValues={{
           firstname: '',
@@ -114,6 +101,19 @@ export default function Order() {
         }}>
         {({ submitForm, isSubmitting }) => (
           <Form style={formStyle}>
+            <Grid container justify='center'>
+              Pickup
+              <Switch
+                classes={{
+                  root: classes.root,
+                  switchBase: classes.switchBase,
+                  checked: classes.checked,
+                  track: classes.track,
+                  thumb: classes.thumb,
+                }}
+              />
+              Delivery
+            </Grid>
             <Grid container align='center'>
               <Grid item xs={12} sm={6}>
                 <Field
